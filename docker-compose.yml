@@ -1,0 +1,14 @@
+version: '3'
+services:
+  kermitbot:
+    image: kermitbot
+    container_name: kermitbot
+    environment:
+    - 'guild_id=734870030852030524'
+    - 'bot_token=NjI2NzM3MzEyMjcyODc1NTIw.XYycmw.CiXxfwqh2vDnxbfmrLFoDaLjjOM'
+    - 'mysql_host=10.10.2.1'
+    - 'mysql_database=kermitbot'
+    - 'mysql_username=kermitbot'
+    - 'mysql_password=123'
+    ports:
+    - '8080:8080'
