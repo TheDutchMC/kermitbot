@@ -24,5 +24,7 @@ services:
         ports:
         - '8080:8080'
 ```
+The API will be available at `/api/v1/`, the GUI at `/static/index.html`
+
 ### Supported tags
 Every git tag is associated with the same Docker tag. E.g git tag `0.1.0` will have Docker tag `0.1.0`. Besides this, `latest` is also supported
